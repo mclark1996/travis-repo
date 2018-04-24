@@ -1,0 +1,25 @@
+{
+  "name": "travis-repo",
+  "version": "1.0.0",
+  "description": "Simple Travis-CI check for JSHint (Code Linting)",
+  "main": "hello.js",
+  "scripts": {
+    "test": "jshint hello.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mclark1996/travis-repo.git"
+  },
+  "author": "clark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mclark1996/travis-repo/issues"
+  },
+  "homepage": "https://github.com/mclark1996/travis-repo#readme",
+  "dependencies": {
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  }
+}
